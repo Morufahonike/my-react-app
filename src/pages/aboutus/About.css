@@ -1,0 +1,142 @@
+.contour{
+width: 100%;
+max-width: 1500px;
+min-height: 110vh;
+position: absolute;
+top: 0;
+background-position: inherit;
+background-size: cover;
+background: linear-gradient(261.16deg, rgba(17, 47, 200, 0.3) 12.85%, rgba(217, 15, 100, 0.3) 87.91%), linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.5) 75%), url('./../../assets/nell.png');
+}
+.about{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 50px;
+    font-weight: bolder;
+    padding: 300px;
+}
+
+.forthstage2{
+    width: 100%;
+    min-height: 70vh;
+    background-color: #fff; 
+    position: absolute;
+    top: 55rem;
+}
+
+.part2{
+    display: flex;
+   justify-content: center;
+    margin: 50px;
+    text-align: center;
+    align-items: center;
+}
+
+.forthstage2 h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 60px;
+    font-weight: bolder;
+    color: #71767D;
+}
+
+
+.first2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.second2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 30px;
+}
+.footer2{
+    width: 100%;
+    position: absolute;
+    top: 85rem;
+}
+.goods{
+    width: 100%;
+    min-height: 150vh;
+    background-color: #fff;
+    position: absolute;
+    top: 140rem;
+}
+.goodsas{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 80px;
+}
+.goodsas h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #017297;
+}
+.goodsas p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 18px;
+}
+
+@media (max-width: 960px){
+    .contour{
+        width: 100%;
+        max-width: 960px;
+        min-height: 110vh;
+        background-image: url("../../assets/nell.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        top: 0;
+    }
+    .forthstage2{
+        width: 100%;
+        min-height: 70vh;
+        position: absolute;
+        top: 45rem;
+    }
+    .forthstage2 h1{
+        font-size: 40px;
+    }
+    .first2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2.5rem;
+    }
+    .first2 img{
+      width: 150px;
+    }
+    .second2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2.5rem;
+    }
+    .second2 img{
+        width: 150px;
+    }
+    .goodsas{
+        gap: 2rem;
+        padding: 50px;
+        text-align: center;
+    }
+    .goodsas h3{
+        font-size: 18px;
+    }
+    .goodsas p{
+        font-size: 15px;
+    }
+}

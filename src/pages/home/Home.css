@@ -1,0 +1,520 @@
+.heade{
+    width: 100%;
+    max-width: 1440px;
+    min-height: 180vh;
+    background-image: url("../../assets/aust.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: initial;
+    position: absolute;
+    top: 0;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 5%;
+    position: absolute;
+    top: 12rem;
+}
+
+.secondstage{
+    color: #fff;
+    font-size: 70px;
+    font-weight: bolder;
+}
+.secondstage2{
+    color: #fff;
+    font-size: 30px; 
+}
+.viewplansbtn b{
+    width: 120px;
+    height: 50px;
+    background-color: #fff;
+}
+.viewplansbtn{
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}
+.viewplansbtn p{
+    color: #fff;
+    font-style: normal;
+    font-size: 17px;
+    text-align: center;
+}
+.viewplansbtn2{
+    display: flex;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.how{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #F3F3F5; 
+    position: absolute;
+    top: 62rem;
+    align-items: center;
+    padding: 5px 10px;
+    margin-left: 135px;   
+}
+.howto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 100px;
+    gap: 2rem;
+    font-size: 17px;
+}
+
+.profile{
+    width: 1200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 1rem;
+    /* text-transform: capitalize; */
+    font-size: 17px;
+    margin-left: 30px;
+}
+.span{
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    gap: 5rem;
+    padding: 10px;
+    font-size: 17px;
+    align-items: center;
+   
+}
+.span img{
+    width: 50px;
+    margin-left: 10px;
+}
+.spanwords{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.forthstage{
+    width: 100%;
+    min-height: 70vh;
+    background-color: #fff; 
+    position: absolute;
+    top: 119rem;
+}
+
+.parts{
+    display: flex;
+    flex-direction: column;
+    margin: 80px;
+    gap: 2rem;
+    text-align: center;
+    align-items: center;
+}
+
+.forthstage h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.forthstage p{
+    font-size: 30px;
+}
+
+.first1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.second2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 30px;
+}
+
+.gallery{
+    width: 100%;
+    max-width: 1440px;
+    min-height: 100vh;
+    position: absolute;
+    top: 150rem;
+}
+
+.fifthstage{
+    width: 100%;
+    min-height: 120vh;
+    background-color: #F3F3F5; 
+    position: absolute;
+    top: 270rem;
+}
+.testimonals{
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 80px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.people{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    padding: 50px;
+}
+.authorsinfo{
+    width: 350px;
+    height: 300px;
+    background-color: #fff;
+    padding: 50px;
+    align-items: center;
+}
+.info{
+    width: 280px;
+    height: 100px;
+    background-color: #F3F3F5;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 35px -10px;
+    align-items: center;
+}
+.info img{
+    width: 50px;
+    height: 50px;
+}
+.infos{
+    cursor: pointer;
+}
+.info h1{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.blog{
+    width: 100%;
+    min-height: 180vh;
+    background-color: #fff; 
+    position: absolute;
+    top: 312rem;
+}
+
+.blog2{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.arrow1{
+    width: 300px;
+}
+.blog1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem;
+    margin: 120px;
+}
+.blogposts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.blogpost{
+    font-size: 20px;
+}
+.arrow2{
+    /* position: absolute;
+    left: 23rem; */
+    cursor: pointer;
+    padding-left: 230px;
+}
+
+.data{
+    color: #017297;
+}
+.writing{
+    font-size: 25px;
+    font-weight: bold;
+}
+.cardio{
+    margin: 5px;
+}
+.cardcont{
+    width: 300px;
+    height: 400px;
+}
+.cardgroup{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+}
+
+.footer{
+    width: 100%;
+    position: absolute;
+    bottom: -371rem;
+}
+
+@media (max-width: 960px){
+    .heade{
+      width: 100%;
+      max-width: 960px;
+      min-height: 110vh;
+      background-image: url("../../assets/aust.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      position: absolute;
+      top: 0;
+    }
+    .secondstage{
+        color: #fff;
+        font-size: 30px;
+        font-weight: bolder;
+    }
+    .hero{
+        display: flex;
+        gap: 2rem;
+    }
+    .hero1{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .secondstage2{
+        color: #fff;
+        font-size: 15px; 
+    }
+    .how{
+        width: 100%;
+        min-height: 100vh;
+        background-color: #F3F3F5; 
+        position: absolute;
+        top: 37rem;
+    }
+    .howto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 50px;
+        gap: 2rem;
+        font-size: 17px;
+    }
+    .profile{
+        width: 100%;
+        max-width: 960px;
+        height: 80px;
+        display: flex;
+        /* justify-content: center;
+        align-items: center; */
+        flex-direction: row;
+        gap: 1rem;
+        text-transform: capitalize;
+        font-size: 13px;
+    }
+    .span{
+        display: flex;
+        flex-direction: column;
+        margin: 1px;
+        gap: 2rem;
+        padding: 1px;
+        font-size: 13px;
+        
+    }
+    .span img{
+        width: 30px;
+    }
+    .spanwords{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .forthstage{
+        width: 100%;
+        max-width: 960px;
+        min-height: 30vh;
+        background-color: #fff; 
+        position: absolute;
+        top: 90rem;
+    }
+    
+    .parts{
+        display: flex;
+        flex-direction: column;
+        margin: 50px;
+        gap: 1rem;
+        text-align: center;
+        align-items: center;
+    }
+    .forthstage h1{
+        font-size: 30px;
+        font-weight: bolder;
+    }
+    .forthstage p{
+        font-size: 16px;
+    }
+    
+    .f1stpart{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        cursor: pointer;
+    }
+    .f1stpart img{
+        width: 150px;
+    }
+    .s2ndpart{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        margin-top: 30px;
+        cursor: pointer;
+    }
+    .s2ndpart img{
+        width: 150px;
+    }
+    .gallery{
+        width: 100%;
+        max-width: 960px;
+        min-height: 300vh;
+        position: absolute;
+        top: 125rem;
+    }
+    .fifthstage{
+        width: 100%;
+        max-width: 960px;
+        min-height: 210vh;
+        background-color: #F3F3F5; 
+        position: absolute;
+        top: 220rem;
+    }
+   
+    .testimonals{
+        font-size: 28px;
+        font-weight: bolder;
+        margin: 50px;
+        text-align: center;
+    }
+    
+    .people{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+        padding: 20px;
+    }
+    .authorsinfo{
+        width: 280px;
+        height: 280px;
+        background-color: #fff;
+        padding: 35px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 2.4rem;
+    }
+    .authorsinfo p{
+        font-size: 15px;
+        text-align: center;
+        line-height: 1.3rem;
+    }
+    .info{
+        width: 180px;
+        height: 50px;
+        background-color: #F3F3F5;
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        margin: 30px 15px;
+        align-items: center;
+    }
+    .info img{
+        width: 30px;
+        height: 30px;
+    }
+    .infos h1{
+        font-size: 15px;
+        font-weight: bolder;
+    }
+    
+    .blog{
+        width: 100%;
+        min-height: 180vh;
+        background-color: #fff; 
+        position: absolute;
+        top: 292rem;
+    }
+    
+    .blog2{
+        font-size: 30px;
+        font-weight: bolder;
+    }
+    
+    .arrow1{
+        width: 150px;
+    }
+    .blog1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 1.2rem;
+        margin: 100px;
+    }
+    .blogposts{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.2rem;
+    }
+    
+    .blogpost{
+        font-size: 15px;
+    }
+  
+    .data{
+        color: #017297;
+    }
+    .writing{
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .cardio{
+        margin: 30px;
+    }
+    .cardcont{
+        width: 300px;
+        height: 400px;
+    }
+    .cardgroup{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+    .footer{
+        width: 100%;
+        max-width: 960px;
+        position: absolute;
+        bottom: -400rem;
+    }
+}
